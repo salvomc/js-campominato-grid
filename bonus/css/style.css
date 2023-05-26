@@ -14,7 +14,7 @@ h1{
     color: rgb(205, 197, 197);
 }
 
-button{
+button, select{
     padding: 5px 10px 5px 10px;
     border: 5px solid darkslategray;
     border-radius: 10px;
@@ -24,6 +24,10 @@ button{
     cursor: pointer;
     color: darkslategray;
     background-color: rgb(205, 197, 197);
+}
+
+select option{
+    font-family: 'Alfa Slab One', cursive;
 }
 
 header{
@@ -52,6 +56,30 @@ main{
 .square{
     height: calc(100% / 10);
     width: calc(100% / 10);
+    border: 2px solid darkslategray;
+    font-size: 15px;
+    color: rgb(64, 83, 83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(205, 197, 197);
+}
+
+.square1{
+    height: calc(100% / 9);
+    width: calc(100% / 9);
+    border: 2px solid darkslategray;
+    font-size: 15px;
+    color: rgb(64, 83, 83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(205, 197, 197);
+}
+
+.square2{
+    height: calc(100% / 7);
+    width: calc(100% / 7);
     border: 2px solid darkslategray;
     font-size: 15px;
     color: rgb(64, 83, 83);

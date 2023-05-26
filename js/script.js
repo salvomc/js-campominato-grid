@@ -12,6 +12,7 @@ button.addEventListener('click', function()
     {
         //Recupero l'elemento in cui devo creare la griglia
         const grid = document.getElementById('grid');
+        //Azzero il contenuto di grid
         grid.innerHTML="";
         //Creo un ciclo for per generare tutte le caselle della griglia
         for (let i = 0; i<100; i++)
